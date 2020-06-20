@@ -1,0 +1,15 @@
+package package1;
+
+public class StringFind {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String x = "The group wilp-academy only accepts messages from people on"
+				+ " its allowed senders list, and your email address isn't on the list";
+		String arr[]=x.split(" ");
+		System.out.println("Number of word is :"+arr.length);
+		System.out.println("Number of space:"+(arr.length-1));
+
+	}
+
+}

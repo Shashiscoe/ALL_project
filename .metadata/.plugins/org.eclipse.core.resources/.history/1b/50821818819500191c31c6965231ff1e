@@ -1,0 +1,24 @@
+
+public class Word {
+	public static void main(String[] args) {
+	
+		String str="kagbjiuhaidnncgu";
+		char arr[]=str.toCharArray();
+		int len=arr.length;
+		
+		for(int i=0;i<=str.length();i++){
+			
+			if(arr[i]=='a'|| arr[i]=='e'|| arr[i]=='i'|| arr[i]=='o')
+			{
+			System.out.println("it is vowel");
+			}else{
+				
+				
+				System.out.println("it is consenent");
+			}
+			
+			
+		}
+	}
+
+}

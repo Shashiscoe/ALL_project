@@ -1,0 +1,42 @@
+package lambdaExpressionWithCollection;
+
+import java.util.Comparator;
+import java.util.Map;
+import java.util.TreeMap;
+class Compare implements Comparator<Map<Integer, String>>
+{
+
+	@Override
+	public int compare(Map<Integer, String> o1, Map<Integer, String> o2) {
+		// TODO Auto-generated method stub
+		
+		
+		
+		return (o1>o2)?-1:(o1<o2)?1:0;
+	}
+	
+}
+
+public class TreeMapLambda {
+
+	public static void main(String[] args) {
+	
+		TreeMap<Integer, String> treeMap=new TreeMap<>();
+		treeMap.put(104, "shashi");
+		treeMap.put(101, "kumar");
+		treeMap.put(105, "shweta");
+		treeMap.put(100, "shalev");
+		treeMap.put(108, "shkfj");
+		treeMap.put(109, "shashi");
+		System.out.println(treeMap);
+		
+
+	}
+
+}
+
+@Override
+public int compare(Map<Integer, String> o1, Map<Integer, String> o2) {
+	// TODO Auto-generated method stub
+	return 0;
+}

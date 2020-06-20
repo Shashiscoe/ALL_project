@@ -1,0 +1,54 @@
+
+import java.text.SimpleDateFormat;
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.ZoneId;
+import java.util.Date;
+
+public class DateAndTime {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LocalDate d=LocalDate.now();
+		System.out.println(d);
+		
+		LocalTime t=LocalTime.now();
+		System.out.println(t);
+		System.out.println("SimpleSearch"+"_"+LocalDate.now()+"_"+LocalTime.now().toSecondOfDay());
+		
+		
+		
+		
+		LocalDateTime dt=LocalDateTime.now();
+		System.out.println(dt);
+		
+		LocalDateTime zdt=LocalDateTime.now();
+		System.out.println(zdt);
+		//System.out.println("SimpleSearch"+"_"+LocalDate.now()+"_"+LocalTime.now().toNanoOfDay());
+		///to get zonal id
+	
+		/*for(String s:ZoneId.getAvailableZoneIds())
+		{
+			System.out.println(s);
+		}*/
+		
+		LocalTime Zt=LocalTime.now(ZoneId.of("America/New_York"));
+		System.out.println("NewYork Time "+Zt);
+		
+		//We can use instant for machine readable....end with Z
+		Instant i=Instant.now();
+		System.out.println("machine readable "+i);
+		
+		//java to sql date convertor
+		
+
+		java.sql.Date dt2=new java.sql.Date(new java.util.Date().getTime()); 
+		
+		System.out.println(new java.sql.Date(new java.util.Date().getTime()));
+		System.out.println(new java.util.Date().getTime());
+
+	}
+
+}

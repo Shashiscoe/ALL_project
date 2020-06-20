@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;Interview/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;StringInterView&apos;&#x0D;&#x0A;- Destination element: &apos;Interview/src/(default package)&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     package1.NumberOfCharacter.java&#x0D;&#x0A;     package1.NumberOfWords.java" description="Copy compilation units" destination="=Interview/src&lt;" element1="/src&lt;package1{NumberOfCharacter.java" element2="/src&lt;package1{NumberOfWords.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1516522280678" units="2" version="1.0"/>
+</session>

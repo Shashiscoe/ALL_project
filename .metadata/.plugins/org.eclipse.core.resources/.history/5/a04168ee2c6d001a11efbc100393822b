@@ -1,0 +1,20 @@
+package Singleton;
+
+public class SingletonP {
+	private static SingletonP obj=null;
+	private SingletonP()
+	{
+		System.out.println("created");
+	}
+	public static SingletonP getInstance()
+	{
+		return obj;
+	}
+	public static void main(String[] args) {
+		
+		SingletonP obj1=new SingletonP();
+		SingletonP obj2=new SingletonP();
+		SingletonP obj3=new SingletonP();
+			}
+
+}

@@ -1,0 +1,11 @@
+package Singleton;
+
+public class SingletonEager {
+
+	private static  SingletonEager obj=new SingletonEager();
+	public static void main(String[] args) {
+	
+
+	}
+
+}

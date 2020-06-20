@@ -1,0 +1,36 @@
+
+public class Weight {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int sum=0;
+		String input1="Hello World";
+		int input2=1;
+		input1=input1.toUpperCase();
+		int len=input1.length();
+		for(int i=0;i<len;i++)
+		{
+			int x=input1.charAt(i);
+			if(input2==0 && x>64)
+			{
+				if(input1.charAt(i)=='A' ||input1.charAt(i)=='E' ||input1.charAt(i)=='I' ||
+				  input1.charAt(i)=='O' ||input1.charAt(i)=='U' )
+				{
+					;
+				}
+				else
+				{
+					sum=sum+((input1.charAt(i)-64));
+				}
+			}
+			else
+			{
+				sum=sum+((input1.charAt(i)-64));
+			}
+		}
+		
+		System.out.println(sum);
+	}
+
+}

@@ -1,0 +1,17 @@
+package package1;
+
+import java.util.Scanner;
+
+public class Anagram {
+
+	public static void main(String[] args) {
+		Scanner scn=new Scanner(System.in);
+		String input1=scn.next();
+		String input2=scn.next();
+		char arr[]=input1.toCharArray();
+		char arr2[]=input2.toCharArray();
+		
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package package1;
+
+public class Test {
+
+	public static void main(String[] args) {
+		String x = "agetihodu";
+		x.toLowerCase();
+		String str="";
+		String v="aeiou";
+		char arr[]=x.toCharArray();
+		for(char ch:arr)
+		{
+			if(v.contains("ch"))
+			{
+				str+=ch;
+			}
+		}
+		System.out.println("kzcgk"+str);
+		
+		
+		}
+}

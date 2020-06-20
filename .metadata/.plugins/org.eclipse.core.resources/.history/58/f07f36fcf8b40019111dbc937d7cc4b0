@@ -1,0 +1,32 @@
+package HashMap;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+public class MapSimple {
+
+	public static void main(String[] args) {
+		HashMap<Integer,String> map=new HashMap<>();
+		map.put(1, "shashi");
+		map.put(2,"shweta");
+		map.put(1, "rohan");
+		map.put(2,"abc");
+		System.out.println(map);
+		System.out.println("Method 1 to iterate");
+		System.out.println();
+		for(int key:map.keySet())
+		{
+			
+			System.out.println("Key is :"+key+"  value is :"+map.get(key));
+		}
+		System.out.println("--------------------");
+		System.out.println("Method 2 to iterate");
+		System.out.println();
+		Set<Map.Entry<Integer, String>> value=map.entrySet();
+		
+		for(Map.Entry<Integer, String> e:value)
+		{
+			System.out.println("Key is :"+e.getKey()+"  "+" Value is:"+e.getValue());
+		}
+	}
+
+}

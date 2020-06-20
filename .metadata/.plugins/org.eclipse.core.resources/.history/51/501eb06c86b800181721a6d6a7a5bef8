@@ -1,0 +1,26 @@
+package package1;
+
+public class StringSymbil {
+
+	public static void main(String[] args) {
+		String x = "123-12321-132-345-#2_45_56_3_65_76_4_4_6676_4_5$";
+		String str=x.substring((x.indexOf('#')+1),x.indexOf('$'));
+		System.out.println(str);
+		String arr[]=str.split("_");
+		int count=0;
+		for(int i=0;i<arr.length;i++)
+		{
+			int x1=Integer.parseInt(arr[i]);
+			for(int j=2;j<arr.length;j++)
+			{
+				if(x1%j==0)
+				{
+					
+				}
+			}
+		}
+		
+
+	}
+
+}

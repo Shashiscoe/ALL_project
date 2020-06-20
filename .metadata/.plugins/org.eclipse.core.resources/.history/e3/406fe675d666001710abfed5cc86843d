@@ -1,0 +1,16 @@
+package package1;
+
+import java.util.Scanner;
+
+public class DupliCate {
+
+	public static void main(String[] args) {
+		String res="";
+		//BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Enter the string:");
+		String a=scan.next();
+
+	}
+
+}

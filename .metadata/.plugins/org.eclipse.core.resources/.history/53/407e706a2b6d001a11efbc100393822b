@@ -1,0 +1,25 @@
+package Singleton;
+
+public class SingletonWithSync {
+	private static SingletonClass obj= null;
+	private SingletonWithSync()
+	{
+		System.out.println("Singleton Object Created" );
+	}
+	public static SingletonClass getInstance()
+	{
+		if(obj==null)
+		{
+			obj=new SingletonWithSync();
+		}
+		return obj;
+	}
+	public static void main(String[] args) {
+		SingletonClass obje1=SingletonClass.getInstance();
+		SingletonClass obje2=SingletonClass.getInstance();
+		SingletonClass obje3=SingletonClass.getInstance();
+		
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+import java.time.LocalDate;
+
+public class DateAndTime {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LocalDate d=LocalDate.ofEpochDay(0);
+		System.out.println(d);
+
+	}
+
+}

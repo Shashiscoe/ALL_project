@@ -1,0 +1,15 @@
+
+public class StringManupulation {
+	public static void main(String[] args) {
+		
+		String s="welcome";
+		String s1="welcome";
+		
+		s.concat("to india");
+		System.out.println();
+		
+		System.out.println(s+"  "+s1 );
+		System.out.println(s.equals(s1));
+	}
+
+}

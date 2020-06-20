@@ -1,0 +1,15 @@
+package Singleton;
+
+public class SingletonEager {
+
+	private static  SingletonEager obj=new SingletonEager();
+	private SingletonEager()
+	{
+		
+	}
+	public static void main(String[] args) {
+	
+
+	}
+
+}

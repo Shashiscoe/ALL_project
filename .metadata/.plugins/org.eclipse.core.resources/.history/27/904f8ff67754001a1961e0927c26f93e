@@ -1,0 +1,29 @@
+import java.util.Arrays;
+import java.util.List;
+
+public class DemoConsumer {
+
+	public static void main(String[] args) {
+		
+		List<Integer> list=Arrays.asList(1,2,3,4,5,6,7);
+		//System.out.println(list);
+		//Enhanced for is external for loop because it is outside collection framework
+		System.out.println("Enhanced for loop ");
+		for(int i:list)
+		{
+			System.out.println(i);
+			
+		}
+		
+		
+		//in java 1.8 forEach loop is internal loop . it is internal part of collection ...so it
+		//is faster than external for loop 
+		System.out.println("ForEach loop");
+		//method 1
+		list.forEach((i)->System.out.println("value of i ="+i));
+		//method 2
+		System.out.println("Method 2");
+		list.forEach( i->System.out.println("value of i ="+i));//lamda //consumer Interface(inside ())
+	}
+
+}

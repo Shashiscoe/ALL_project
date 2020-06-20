@@ -1,0 +1,46 @@
+package package1;
+import java.util.Scanner;
+
+public class StringOperation {
+
+	public static void main(String[] args) {
+		Scanner scan1=new Scanner(System.in);
+		System.out.println("Enter the name ");
+		String name=scan1.next();
+		/*System.out.println("Enter address");
+		String add=scan1.next();
+		System.out.println("name is ::" +name);
+		System.out.println("Address :"+add);
+		System.out.println(name.toUpperCase());
+		System.out.println(name.toLowerCase());
+		System.out.println("Charcter at index 3:"+name.charAt(3));
+		System.out.println(name.substring(0));
+		System.out.println(name.concat("kumar"));
+		System.out.println("Length of string is:"+name.length());
+		System.out.println("Last index of char :"+name.lastIndexOf("sh"));
+		*/System.out.println("First index of char :"+name.indexOf("s"));
+		char a[]=new char[20];
+		char sub[]=new char[20];
+		
+		a=name.toCharArray();
+		System.out.println("Enter the substring:");
+		String subString=scan1.next();
+		sub=subString.toCharArray();
+		for(int i=0,j=0;i<a.length;i++)
+		{
+			if(a[i]==sub[j])
+			{
+				System.out.println("found substring"+sub[j]);
+				i++;
+				j++;
+			}
+			else
+			{
+				System.out.println("not found");
+				i++;
+			}
+		}
+		
+	}
+
+}

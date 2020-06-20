@@ -1,0 +1,22 @@
+package lambdaExpressionWithCollection;
+import java.util.*;
+public class TreeSetLambda {
+
+	public static void main(String[] args) {
+	
+		TreeSet<Integer> tree=new TreeSet<>();
+		tree.add(5);
+		tree.add(9);
+		tree.add(7);
+		tree.add(1);
+		tree.add(10);
+		tree.add(12);
+		tree.add(9);
+		System.out.println(tree);
+		
+		
+		Collections.sort(tree,(i1,i2)->(i1>i2?-1:(i1<i2)?1:0));
+		
+	}
+
+}

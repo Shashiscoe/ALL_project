@@ -1,0 +1,15 @@
+package package1;
+import java.util.*;
+import java.util.Scanner;
+
+public class StringOperation {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		String name=scan.next();
+		String add=scan.next();
+		System.out.println("name is ::" +name);
+		System.out.println("Address :"+add);
+	}
+
+}

@@ -1,0 +1,24 @@
+
+public class StringManupulation {
+	public static void main(String[] args) {
+		
+		String s="welcome";
+		String s1="welcome";//no object created
+		
+		String str=new String("welcome");///one object created
+		String str1=new String("welcome1");//two object created
+		
+		System.out.println(str.equals(s));
+		s.concat("to india");
+		System.out.println();
+		
+		System.out.println(s+"  "+s1 );
+		System.out.println(s.equals(s1));
+		
+
+		
+		StringBuffer strBuf="abcd";
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package Singleton;
+
+public class SingletonP {
+	private static SingletonP obj=null;
+	private SingletonP()
+	{
+		if(obj==null)
+		{
+			obj=new SingletonP();
+		}
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+
+package OverLoadingAndOverriding;
+
+class Test
+{
+	int id;
+	String name;
+	public Test(int id, String name) {
+		this.id = id;
+		this.name = name;
+
+	};
+	
+}
+public class OverLoading {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Test t=new Test(2, "Shashi");
+	}
+
+}

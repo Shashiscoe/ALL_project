@@ -1,0 +1,16 @@
+package package1;
+
+import java.util.Scanner;
+
+public class Selection_Sort {
+
+	public static void main(String[] args) {
+		System.out.println("Enter  the number of element to sort:" );
+		Scanner scan=new Scanner(System.in);
+		int num=scan.nextInt();
+		
+				
+
+	}
+
+}

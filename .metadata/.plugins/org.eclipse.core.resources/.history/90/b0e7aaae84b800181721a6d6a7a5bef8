@@ -1,0 +1,12 @@
+package package1;
+
+public class StringSymbil {
+
+	public static void main(String[] args) {
+		String x = "123-12321-132-345-#2_45_56_3_65_76_4_4_6676_4_5$";
+		String str=x.substring(x.charAt('#'),x.charAt('&'));
+		
+
+	}
+
+}

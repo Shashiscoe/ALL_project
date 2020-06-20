@@ -1,0 +1,15 @@
+
+public class Word {
+	public static void main(String[] args) {
+		 
+		String str="Inidia is my best country";
+		String strArray[]=str.split(" ");
+		System.out.println(strArray[0]);
+		System.out.println(strArray[1]);
+		System.out.println(strArray[2]);
+		System.out.println(strArray[3]);
+		System.out.println(strArray[4]);
+		
+	}
+
+}

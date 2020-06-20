@@ -1,0 +1,20 @@
+
+import java.util.*;
+public class Vector_test {
+	public static void main(String[] args) {
+		Vector<String> v =new Vector<>();
+		v.add("shashi");
+		v.add("kumar");
+		v.add("shweta");
+		v.add("salve");
+		v.add("rohan");
+		v.add("kumar")
+		Iterator itr=v.iterator();
+		System.out.println(v);
+		while(itr.hasNext())
+		{
+			System.out.println(itr.next());
+		}
+		
+	}
+}

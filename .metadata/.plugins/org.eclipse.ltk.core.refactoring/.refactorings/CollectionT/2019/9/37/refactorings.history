@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.comparator.Age.java&apos; to &apos;AgeComparator.java&apos;&#x0D;&#x0A;- Original project: &apos;CollectionT&apos;&#x0D;&#x0A;- Original element: &apos;com.comparator.Age.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.comparator.AgeComparator.java&apos;" description="Rename compilation unit &apos;Age.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.comparator{Age.java" name="AgeComparator.java" references="false" stamp="1568227981013" version="1.0"/>
+</session>

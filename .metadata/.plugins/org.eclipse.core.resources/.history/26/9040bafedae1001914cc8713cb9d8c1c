@@ -1,0 +1,12 @@
+
+public class StringManupulation {
+	public static void main(String[] args) {
+		
+		String s="welcome";
+		String s1="welcome1";
+		
+		System.out.println(s+"  "+s1 );
+		System.out.println(s.equals(s1));
+	}
+
+}

@@ -1,0 +1,11 @@
+package package1;
+
+public class IpValidation {
+
+	public static void main(String[] args) {
+		String ip="128.254.0.55";
+		String arr[]=ip.split("\\.");
+		
+	}
+
+}

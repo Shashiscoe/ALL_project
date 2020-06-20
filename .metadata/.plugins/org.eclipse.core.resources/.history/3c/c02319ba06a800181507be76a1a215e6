@@ -1,0 +1,38 @@
+import java.util.*;
+
+public class ArrayList1 {
+public static void main(String[] args) {
+	 ArrayList<String> list=new ArrayList<String>();//Creating arraylist  
+	  list.add("Ravi");//Adding object in arraylist  
+	  list.add("Vijay");  
+	  list.add("JDG");  
+	  list.add("Ajay"); 
+	  
+	  System.out.println(list);
+	  if(list.contains("Ravi"))
+	  {
+		  System.out.println("Present");
+	  }
+	  int a[]={5,8,7,5,9,4,1,2};
+	  a.toString();
+	  System.out.println(a);
+	  int len =list.size();
+	  Iterator itr=list.iterator();
+	  System.out.println("List contain data");
+	  System.out.println("index of Ajay :"+list.indexOf("Ajay"));
+	  System.out.println(list.get(2));
+	  
+	  while(itr.hasNext())
+	  {
+		  System.out.println(itr.next());
+		  
+	  }
+	  
+	  //Traversing list through Iterator  
+//	  Iterator itr=list.iterator();  
+//	  while(itr.hasNext()){  
+//	   System.out.println(itr.next());  
+//	  
+
+}
+}

@@ -1,0 +1,33 @@
+
+public class StringManupulation {
+	public static void main(String[] args) {
+		
+		String s="welcome";
+		String s1="welcome";//no object created
+		System.out.println(s==s1);
+		System.out.println(s.equals(s1));
+		
+		System.out.println("---------------------------");
+		String str=new String("welcome");///one object created
+		String str1=new String("welcome");//two object created
+		
+		
+		System.out.println(str==str1);
+		System.out.println(str.equals(str1));
+		System.out.println(s.equals(str));
+		s.concat("to india");
+		System.out.println();
+		/*
+		System.out.println(s+"  "+s1 );
+		System.out.println(s.equals(s1));
+		
+
+		
+		StringBuffer strBuf=new StringBuffer("abcd");
+		System.out.println(strBuf);
+		strBuf.append("def");
+		System.out.println(strBuf);
+*/		
+	}
+
+}

@@ -1,0 +1,9 @@
+
+public class RemoveVowel {
+
+	public static void main(String[] args) {
+		String str="ajfvndvahjgb";
+		String st="";
+		
+	}
+}

@@ -1,0 +1,16 @@
+package HashMap;
+import java.util.*;
+public class MapSimple {
+
+	public static void main(String[] args) {
+		HashMap<Integer,String> map=new HashMap<>();
+		map.put(1, "shashi");
+		map.put(2,"shweta");
+		map.put(2, "shashi");
+		map.put(2,"shweta");
+		System.out.println(map);
+		
+
+	}
+
+}
