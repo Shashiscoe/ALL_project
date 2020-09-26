@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;iterator&apos; from expression &apos;map.keySet().iterator()&apos;&#x0D;&#x0A;- Original project: &apos;test&apos;&#x0D;&#x0A;- Variable name: &apos;iterator&apos;&#x0D;&#x0A;- Destination method: &apos;test.CoolTest.main()&apos;&#x0D;&#x0A;- Variable expression: &apos;map.keySet().iterator()&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;iterator&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;test{CoolTest.java" name="iterator" replace="true" selection="264 23" stamp="1596043297541" version="1.0"/>
+</session>

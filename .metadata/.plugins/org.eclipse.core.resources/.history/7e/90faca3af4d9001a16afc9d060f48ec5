@@ -1,0 +1,19 @@
+package TreeMap;
+
+import java.util.Comparator;
+import java.util.TreeMap;
+
+public class TreeMapBasic2 {
+
+	public static void main(String[] args) {
+		TreeMap<Integer, String> t1 = new TreeMap<>();
+		t1.put(109, "Shashi");
+		t1.put(101, "Ravi");
+		t1.put(105, "kumar");
+		System.out.println(t1);
+		
+		Comparator<Integer> comp=Comparator.comparingInt(Integer::intValue);
+		
+
+	}
+}

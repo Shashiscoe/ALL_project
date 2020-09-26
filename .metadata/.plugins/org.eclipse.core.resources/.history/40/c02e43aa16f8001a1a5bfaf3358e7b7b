@@ -1,0 +1,98 @@
+package VerifyConcept;
+
+import java.util.HashSet;
+import java.util.Hashtable;
+import java.util.Set;
+
+public class StringMutabilityCheck {
+	String name;
+	int id;
+	
+
+	public StringMutabilityCheck(String name, int id) {
+		super();
+		this.name = name;
+		this.id = id;
+	}
+
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + id;
+		result = prime * result + ((name == null) ? 0 : name.hashCode());
+		return result;
+	}
+
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		StringMutabilityCheck other = (StringMutabilityCheck) obj;
+		if (id != other.id)
+			return false;
+		if (name == null) {
+			if (other.name != null)
+				return false;
+		} else if (!name.equals(other.name))
+			return false;
+		return true;
+	}
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public int getId() {
+		return id;
+	}
+
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+
+	public static void main(String[] args) {
+	
+		//I have created to string object s1 and s2.
+		String s1=new String("shashi");
+		String s2=new String("shashi");
+		System.out.println(s1.hashCode());
+		System.out.println(s2.hashCode());
+		System.out.println(s1.hashCode()==s2.hashCode());
+		System.out.println(s1==s2);
+		System.out.println(s1.equals(s2));
+		System.out.println(s1);
+		s1.concat(" kumar");
+		System.out.println(s1.hashCode());
+		s1=s1+" kumar";
+		System.out.println(s1.hashCode());		
+		System.out.println(s1);
+		
+		Set set=new HashSet<>();
+		
+		Hashtable<String, String> hashTable=new Hashtable<>();
+		System.out.println();
+		String t1="shashi";
+		String t2="Kumar";
+		String t3=t1+t2;
+		System.out.println(t3);
+		
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package withoutCuncurrent;
+
+public class traditionalCollection {
+
+}

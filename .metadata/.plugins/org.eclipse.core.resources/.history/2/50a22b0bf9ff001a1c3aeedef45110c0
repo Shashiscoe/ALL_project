@@ -1,0 +1,15 @@
+package shallowCloaning;
+
+class Address
+{
+	String add;
+}
+
+class Employee
+{
+	int 
+}
+
+public class Shallow {
+
+}

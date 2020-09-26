@@ -1,0 +1,11 @@
+package package1;
+
+public class SerializationExm {
+
+	public static void main(String[] args) {
+		Employee emp=new Employee();
+		
+
+	}
+
+}

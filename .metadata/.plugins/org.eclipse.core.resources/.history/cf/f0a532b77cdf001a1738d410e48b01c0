@@ -1,0 +1,11 @@
+package ListCollectionExample;
+
+class Employye
+{
+	public int empNum;
+	public String empName;
+}
+
+public class SortEmpObject {
+
+}

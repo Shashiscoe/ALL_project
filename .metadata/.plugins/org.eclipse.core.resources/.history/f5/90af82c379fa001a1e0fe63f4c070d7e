@@ -1,0 +1,15 @@
+package clonable;
+
+class Employee
+{
+	
+}
+
+public class CloneExample {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,31 @@
+package package1;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+
+public class SerializationExm {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		Employee emp=new Employee();
+		emp.setEmpId(20027567);
+		emp.setName("Shashi Kumar");
+		emp.setSalary(4100000);
+		emp.setPassword(9874568);
+		
+		
+		try {
+			FileOutputStream fos=new FileOutputStream("emp.ser");
+			ObjectOutputStream ofs=new ObjectOutputStream(fos);
+			ofs.writeObject(emp);
+			ofs.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+
+	}
+
+}

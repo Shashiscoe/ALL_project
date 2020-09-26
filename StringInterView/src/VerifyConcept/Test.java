@@ -31,6 +31,7 @@ class Employee
 		System.out.println("EmpID :"+empId +" Name :"+empName);
 	}
 	
+	
 }
 
 public class Test extends Employee {

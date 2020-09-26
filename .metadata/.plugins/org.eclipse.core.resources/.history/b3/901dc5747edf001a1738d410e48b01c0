@@ -1,0 +1,44 @@
+package ListCollectionExample;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+
+class MyComparator implements Comparator<Employee>
+{
+	@Override
+	public int compare(Employee o1, Employee o2) {
+		
+		return (o1.empNum>o2.empNum)?-1:(o1.empNum<o2.empNum)?1:0;
+	}
+}
+class Employee 
+{
+	public int empNum;
+	public String empName;
+	public Employee(int empNum, String empName) {
+		super();
+		this.empNum = empNum;
+		this.empName = empName;
+	}
+	@Override
+	public String toString() {
+		return " [empNum=" + empNum + ", empName=" + empName + "]";
+	}	
+}
+
+public class SortEmpObject {
+public static void main(String[] args) {
+	
+	ArrayList<Employee> list=new ArrayList<>();
+	list.add(new Employee(1002, "shashi"));
+	list.add(new Employee(1001, "Kumar"));
+	list.add(new Employee(1005, "ravi"));
+	list.add(new Employee(1004, "rohan"));
+	System.out.println("Before Sorting "+list);
+	
+	//Collections.sort(list,new MyComparator());
+	Collections.sort(list,(o1,o2)->(o1.empNum>o2.empNum)?-1:(o1.empNum<o2.empNum)?1:0);
+	System.out.println("After Sorting "+list);
+}
+}

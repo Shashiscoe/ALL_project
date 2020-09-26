@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Serialization&apos; to &apos;MarkerInterface&apos;" description="Rename resource &apos;Serialization&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Serialization" name="MarkerInterface" stamp="1601106540753" updateReferences="true"/>
+</session>

@@ -1,0 +1,18 @@
+package ListCollectionExample;
+
+class Employye
+{
+	public int empNum;
+	public String empName;
+	public Employye(int empNum, String empName) {
+		super();
+		this.empNum = empNum;
+		this.empName = empName;
+	}
+	
+	
+}
+
+public class SortEmpObject {
+
+}

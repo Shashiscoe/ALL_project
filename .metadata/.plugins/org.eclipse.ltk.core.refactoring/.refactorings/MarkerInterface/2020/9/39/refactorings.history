@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;shallowCloaning&apos; to &apos;shallowAndDeepCloaning&apos;&#x0D;&#x0A;- Original project: &apos;MarkerInterface&apos;&#x0D;&#x0A;- Original element: &apos;MarkerInterface/src/shallowCloaning&apos;&#x0D;&#x0A;- Renamed element: &apos;MarkerInterface/src/shallowAndDeepCloaning&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;shallowCloaning&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;shallowCloaning" name="shallowAndDeepCloaning" qualified="false" references="true" stamp="1601126449944" textual="false" version="1.0"/>
+</session>

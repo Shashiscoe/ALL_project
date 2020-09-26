@@ -1,0 +1,19 @@
+package package1;
+
+import java.io.Serializable;
+
+public class Employee implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private int empId;
+	private String name;
+	private int salary;
+	private int password;
+	
+	
+	
+
+}

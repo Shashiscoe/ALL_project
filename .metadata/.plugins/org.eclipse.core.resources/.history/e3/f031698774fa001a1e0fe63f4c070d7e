@@ -1,0 +1,14 @@
+package package1;
+
+public class SerializationExm {
+
+	public static void main(String[] args) {
+		Employee emp=new Employee();
+		emp.setEmpId(20027567);
+		emp.setName("Shashi Kumar");
+		emp.setSalary(4100000);
+		emp.setPassword(9874568);
+
+	}
+
+}
